@@ -1,0 +1,90 @@
+.hero{
+    padding: 60px;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-text{
+    padding-top:8px;
+    width: 52%;
+}
+
+.badge{
+    border: 1.5px solid;
+    padding: 0.4375rem;
+    padding-inline: 1rem;
+    border-radius: 12px;
+    font-size: 0.625rem;
+    font-weight: 600;
+    background-color:#452B16;
+    letter-spacing:2px;
+}
+
+h1{
+    font-size:4.5rem;
+    margin-top:25px;
+    letter-spacing:-1px;
+    line-height:120%;
+}
+
+.highlight{
+    color: var(--text-gray);
+}
+
+.hero-text p{
+    font-size: 1.25rem;
+    margin-top: 45px;
+    font-weight: 300;
+}
+
+.hero-actions{
+    display: flex;
+    gap: 15px;
+    margin-block:40px;
+
+}
+
+.hero-actions button{
+    background-color: var(--card-dark);
+    padding: 20px;
+    padding-inline: 35px;
+    border: 1px solid;
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight:700;
+    border-radius: 5px;
+}
+
+.search-bar{
+    display:flex;
+    background-color: var(--card-dark);
+    margin-block:3rem ;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    padding-block: 20px;
+}
+
+.input-group{
+    margin-inline: 1.875rem;
+    gap: 1.25rem;
+}
+
+.input-group input{
+    background-color: var(--card-dark);
+    border: none;
+    border-right: 0.1px solid var(--text-gray);
+    font-size: 10px;
+    padding-inline-end: 3.125rem;
+}
+
+.search-bar button{
+    border: none;
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+

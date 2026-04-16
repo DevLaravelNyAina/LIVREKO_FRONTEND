@@ -24,7 +24,7 @@
         <div class="hero-container">
             <div class="hero-text">
                 <span class="badge">LOGISTIQUE DE CONFIANCE</span>
-                <h1>Connectez-vous pour livrer et recevoir <span class="highlight">en toute confiance.</span></h1>
+                <h1>Connectez-vous pour livrer et recevoir <span class="highlight">en <br> toute confiance.</span></h1>
                 <p>Livreko transforme le transport de marchandises en une expérience premium, fluide et sécurisée pour les professionnels et les particuliers.</p>
                 
                 <div class="hero-actions">
@@ -46,7 +46,7 @@
             </div>
             <div class="hero-image-container">
                 <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800" alt="Warehouse">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800" alt="Warehouse" style="width: 200px;">
                     <div class="status-card">
                         <div class="status-icon">✔</div>
                         <div class="status-info">
