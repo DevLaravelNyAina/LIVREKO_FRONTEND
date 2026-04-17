@@ -46,7 +46,7 @@
             </div>
             <div class="hero-image-container">
                 <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800" alt="Warehouse" style="width: 200px;">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800" alt="Warehouse">
                     <div class="status-card">
                         <div class="status-icon">✔</div>
                         <div class="status-info">
