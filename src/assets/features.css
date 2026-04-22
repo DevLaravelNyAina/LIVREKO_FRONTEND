@@ -1,5 +1,7 @@
 .features{
-    padding: 60px;
+    padding-inline: 60px;
+    padding-block-start: 60px;
+    padding-block-end: 30px;
     background-color:#0c0d0e;
 }
 
@@ -17,7 +19,7 @@
     font-size: 1rem;
 }
 
-/*********************** features-grid****************/
+/*********************** features-grid ****************/
 
 .features-grid {
     display: grid;
@@ -29,7 +31,44 @@
 
 .feature-card_large-card_dark-card{
     background-color: var(--card-dark);
-    width: 605px;
     height: 600px;
+    border-radius: 15px;
+    padding-inline-start: 45px;
+    padding-top:60px;
+}
+
+.feature-card_large-card_dark-card h3{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.feature-card_large-card_dark-card p{
+    margin-top: 15px;
+}
+
+.feature-card_dark-card_row-card{
+    background-color: var(--card-dark);
+    height: 290px;
+    border-radius: 15px;
+    padding-inline-start: 45px;
+}
+
+.feature-sub-grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-block-start: 22px;
+    gap: 20px;
+}
+
+.feature-card_blue-card{
+    background-color: var(--primary-blue);
+    height: 289px;
+    border-radius: 15px;
+}
+
+.feature-card_green-card{
+    background-color: var(--green);
+    height: 289px;
     border-radius: 15px;
 }

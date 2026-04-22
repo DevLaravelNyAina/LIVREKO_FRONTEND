@@ -98,25 +98,27 @@ import IconNotification from './components/icon/IconNotification.vue';
                 <div class="icon">🚀</div>
                 <h3>Vitesse & Réactivité</h3>
                 <p>Algorithmes de mise en relation instantanée pour vos trajets urgents. Trouvez un transporteur en moins de 15 minutes.</p>
-                <div class="avatars">👤👤👤</div>
-                <span class="card-number">01</span>
+                <div class="">
+                    <div class="avatars">👤👤👤</div>
+                    <span class="card-number">01</span>
+                </div>
             </div>
             <div class="feature-right-column">
-                <div class="feature-card dark-card row-card">
-                    <div class="icon-square">💳</div>
-                    <div>
+                <div class="feature-card_dark-card_row-card">
+                    <div class="feature-card_dark-card_row-card_status">
+                        <div class="icon-square">💳</div>
                         <h3>Paiements Sécurisés</h3>
                         <p>Transactions bloquées et libérées uniquement après confirmation de livraison.</p>
+                        <span class="card-number">02</span>
                     </div>
-                    <span class="card-number">02</span>
                 </div>
                 <div class="feature-sub-grid">
-                    <div class="feature-card blue-card">
+                    <div class="feature-card_blue-card">
                         <div class="icon">🛡️</div>
                         <h3>Assurance Totale</h3>
                         <p>Couverture AXA incluse pour chaque trajet effectué via Livreko.</p>
                     </div>
-                    <div class="feature-card green-card">
+                    <div class="feature-card_green-card">
                         <div class="icon">🍃</div>
                         <h3>Zéro Carbone</h3>
                         <p>Optimisation des retours à vide pour une logistique durable.</p>
