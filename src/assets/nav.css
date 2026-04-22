@@ -29,14 +29,31 @@
 }
 
 .nav-right{
+    display: flex;
     a{
         text-decoration: none;
         color: var(--text-white);
         font-size: 12px;
+        display: flex;
+        gap: 5px;
+
+        p{
+            margin-block: 5px
+        }
+
+        img{
+            width: 1.5625rem;
+            height: 1.5625rem;
+        }
     }
     
 }
 
 .notification{
     padding-right: 36px;
+
+    img{
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
 }

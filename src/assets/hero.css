@@ -1,0 +1,166 @@
+.hero{
+    padding: 60px;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-text{
+    padding-top:8px;
+    width: 37.5rem;
+}
+
+.badge{
+    border: 1.5px solid;
+    padding: 0.4375rem;
+    padding-inline: 1rem;
+    border-radius: 12px;
+    font-size: 0.625rem;
+    font-weight: 600;
+    background-color:#452B16;
+    letter-spacing:2px;
+}
+
+h1{
+    font-size:4.5rem;
+    margin-top:25px;
+    letter-spacing:-1px;
+    line-height:120%;
+}
+
+.highlight{
+    color: var(--text-gray);
+}
+
+.hero-text p{
+    font-size: 1.25rem;
+    margin-top: 45px;
+    font-weight: 300;
+}
+
+.hero-actions{
+    display: flex;
+    gap: 15px;
+    margin-block:40px;
+
+}
+
+.hero-actions button{
+    background-color: var(--card-dark);
+    padding: 20px;
+    padding-inline: 35px;
+    border: 1px solid var(--text-gray);
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight:700;
+    border-radius: 5px;
+}
+
+.search-bar{
+    display:flex;
+    background-color: var(--card-dark);
+    margin-block:3rem ;
+    width: 592px;
+    height: 76px;
+    border-radius: 10px;
+    padding-block: 14px;
+    
+}
+
+.input-group{
+    margin-inline: 59px;
+    width: 141px;
+    svg{
+        position:absolute;
+        margin-block: 20px;
+        margin-inline-start: -30px;
+        margin-top: 15px;
+        
+    }
+}
+
+.input-group input{
+    background-color: var(--card-dark);
+    border: none;
+    border-right: 0.1px solid var(--text-gray);
+    font-size: 12px;
+    padding-inline-end: 3.75rem;
+    padding-block: 1.25rem;
+}
+
+.search-bar button{
+    border: none;
+    padding-block: 12px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    position: absolute;
+    margin-inline-start: 533px;
+    background-color: var(--text-gray);
+}
+
+
+                /***********************************hero-image-container***************************************/
+
+
+.hero-image-container{
+    margin: 40px;
+    margin-block: 89px;
+    width: 37.5rem;
+    margin-inline:50px ;
+}
+
+.hero-image img{
+    width: 36.875rem;
+    height:37.5rem;
+    border-radius: 45px;
+    object-fit: cover;
+
+}
+
+
+.status-card {
+    background: rgba(22, 24, 29, 0.95);
+    padding: 1.375rem;
+    margin-inline: 31px;
+    margin-top: -9.6875rem;
+    border-radius: 22px;
+    display: flex;
+    gap:23px;
+    align-items: center;
+    width: 526px;
+    height: 115px;
+    position:sticky;
+}
+
+.status-infos{
+    width: 100%;
+    padding-block: 200px;
+}
+
+.status-icon {
+    background: #065f46; 
+    padding-block: 14px;
+    padding-inline: 17px;
+    border-radius: 17px;
+    margin-inline: 3px;
+}
+
+.status-label { 
+    font-size: 11px; 
+    color: #10b981;
+    display: block; 
+    font-weight: bold; 
+    margin-block: 7px;
+}
+
+.status-value { 
+    font-size: 1.1rem; 
+    font-weight: 500; 
+    display: block; 
+}
+
+.status-desc { 
+    font-size: 0.7rem; 
+    color: var(--text-gray); 
+}
