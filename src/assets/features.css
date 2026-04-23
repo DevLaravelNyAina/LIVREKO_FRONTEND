@@ -19,7 +19,7 @@
     font-size: 1rem;
 }
 
-/*********************** features-grid ****************/
+/*********************** features-grid ****************************************/
 
 .features-grid {
     display: grid;
@@ -47,12 +47,65 @@
     margin-top: 15px;
 }
 
+.feature-card_large-card_dark-card .card-number{
+    margin-top: 270px;
+    margin-left: 478px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #353a46;
+    position: absolute;
+
+}
+
+/*****************************row_card*****************************************/
+
 .feature-card_dark-card_row-card{
     background-color: var(--card-dark);
     height: 290px;
     border-radius: 15px;
-    padding-inline-start: 45px;
+    padding-inline-start: 34px;
 }
+
+.feature-card_dark-card_row-card_status{
+    padding-block: 50px;
+    display: flex;
+    gap: 35px;
+}
+
+.icon-square{
+    background-color:#4B331F;
+    margin-top: 55px;
+    margin-inline-start: 5px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.icon-square svg{
+    margin-block:24px;
+    margin-inline: 27px;
+}
+
+.feature-card_dark-card_row-card_description{
+    margin-top: 55px;
+    margin-inline-start: 118px;
+}
+
+.feature-card_dark-card_row-card_description p{
+    font-size: 14px;
+    margin-top:8px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.feature-card_dark-card_row-card .card-number{
+    font-size: 35px;
+    font-weight: 700;
+    margin-inline-end: 75px;
+    margin-block: 70px;
+    color: #353a46;
+}
+
+/*********************************sub_grid******************************************/
 
 .feature-sub-grid{
     display: grid;
@@ -66,9 +119,31 @@
     height: 289px;
     border-radius: 15px;
 }
+.feature-card_blue-card{
+    padding: 35px;
+}
+
+.feature-card_description{
+    margin-top: 120px;
+}
+
+.feature-card_description h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.feature-card_description p{
+    font-size: 12px;
+    line-height: 18px;
+}
 
 .feature-card_green-card{
     background-color: var(--green);
     height: 289px;
     border-radius: 15px;
 }
+
+.feature-card_green-card{
+    padding: 30px;
+}
+
