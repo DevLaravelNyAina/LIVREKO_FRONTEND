@@ -3,6 +3,9 @@ import IconAvatar from './components/icon/IconAvatar.vue';
 import IconDestination from './components/icon/IconDestination.vue';
 import IconMap from './components/icon/IconMap.vue';
 import IconNotification from './components/icon/IconNotification.vue';
+import IconSecure from './components/icon/IconSecure.vue';
+import IconCarbon from './components/icon/IconCarbon.vue';
+
 </script>
 
 <template>
@@ -98,30 +101,53 @@ import IconNotification from './components/icon/IconNotification.vue';
                 <div class="icon">🚀</div>
                 <h3>Vitesse & Réactivité</h3>
                 <p>Algorithmes de mise en relation instantanée pour vos trajets urgents. Trouvez un transporteur en moins de 15 minutes.</p>
-                <div class="">
-                    <div class="avatars">👤👤👤</div>
-                    <span class="card-number">01</span>
-                </div>
+                <div class="avatars">👤👤👤</div>
+                <span class="card-number">01</span>
             </div>
             <div class="feature-right-column">
                 <div class="feature-card_dark-card_row-card">
                     <div class="feature-card_dark-card_row-card_status">
-                        <div class="icon-square">💳</div>
-                        <h3>Paiements Sécurisés</h3>
-                        <p>Transactions bloquées et libérées uniquement après confirmation de livraison.</p>
-                        <span class="card-number">02</span>
+                        <div class="icon-square">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_4418_169456)">
+                                    <path d="M3.93018 15.8797L15.8802 3.92969" stroke="#e8953c" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M11.1001 18.2801L12.3001 17.0801" stroke="#e8953c" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13.79 15.5902L16.18 13.2002" stroke="#e8953c" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M20.43 8.48046C22.53 10.5805 22.52 11.6405 20.4 13.7605L13.76 20.4005C11.64 22.5205 10.58 22.5305 8.47998 20.4305L3.56998 15.5205C1.46998 13.4205 1.47998 12.3605 3.59998 10.2405L10.24 3.60047C12.36 1.48047 13.42 1.47047 15.52 3.57047L17.42 5.47046" stroke="#e8953c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M2 22H22" stroke="#e8953c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_4418_169456">
+                                        <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="feature-card_dark-card_row-card_description">
+                            <h3>Paiements Sécurisés</h3>
+                            <p>Transactions bloquées et libérées uniquement après confirmation de livraison.</p>
+                        </div>
+                        <div class="card-number">02</div>
                     </div>
                 </div>
                 <div class="feature-sub-grid">
                     <div class="feature-card_blue-card">
-                        <div class="icon">🛡️</div>
-                        <h3>Assurance Totale</h3>
-                        <p>Couverture AXA incluse pour chaque trajet effectué via Livreko.</p>
+                        <div class="icon">
+                            <IconSecure/>
+                        </div>
+                        <div class="feature-card_description">
+                            <h3>Assurance Totale</h3>
+                            <p>Couverture AXA incluse pour chaque trajet effectué via Livreko.</p>
+                        </div>
                     </div>
                     <div class="feature-card_green-card">
-                        <div class="icon">🍃</div>
-                        <h3>Zéro Carbone</h3>
-                        <p>Optimisation des retours à vide pour une logistique durable.</p>
+                            <div class="icon">
+                                <IconCarbon/>
+                            </div>
+                        <div class="feature-card_description">
+                            <h3>Zéro Carbone</h3>
+                            <p>Optimisation des retours à vide pour une logistique durable.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,7 +183,7 @@ import IconNotification from './components/icon/IconNotification.vue';
             </div>
             <div class="route-card">
                 <div class="route-img">
-                    <img src="https://images.unsplash.com/photo-1563910621483-200084042211?auto=format&fit=crop&w=400" alt="Bordeaux">
+                    <img src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=400" alt="Bordeaux">
                 </div>
                 <div class="route-content">
                     <div class="route-meta">
